@@ -1,8 +1,26 @@
 aid: lithos
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lithos.png
 name: Lithos
-description: 'Lithos is a company surfaced as a portfolio company of greylock and added to the API Evangelist
-  network as a stub for enrichment. Sector: deep-tech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Lithos Carbon is a deep-tech carbon-removal company that spreads crushed
+  basalt on croplands to accelerate enhanced rock weathering, converting atmospheric
+  CO2 into dissolved bicarbonate that is permanently stored as ocean carbonates. The
+  company pairs soil models and machine learning with agronomic partnerships to maximize
+  durable carbon dioxide removal while improving soil health and crop productivity for
+  farmers, and sells the resulting high-permanence carbon credits to corporate buyers.
+  Surfaced as a Greylock portfolio company and added to the API Evangelist network;
+  an enrichment pass confirmed the company publishes no public API, SDK, or developer
+  surface as of this profile.'
 url: https://raw.githubusercontent.com/api-evangelist/lithos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Deep Tech
+- Carbon Removal
+- Climate
+- Enhanced Rock Weathering
+- Agriculture
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.lithoscarbon.com
+- type: About
+  url: https://www.lithoscarbon.com/about
+- type: Blog
+  url: https://lithos.substack.com/
+- type: Support
+  url: https://www.lithoscarbon.com/contact
+- type: SignUp
+  url: https://www.lithoscarbon.com/get-started
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
